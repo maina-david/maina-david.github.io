@@ -1,447 +1,608 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <!--[if IE]>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <![endif]-->
-    <title>Waihura Maina</title>
-    <!-- BOOTSTRAP CORE CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet" />
-    <!-- IONICON STYLE SHEET FOR BEAUTIFUL ICONS -->
-    <link href="assets/css/ionicons.css" rel="stylesheet" />
-    <!-- STYLE FOR OPENING IMAGE IN POPUP USING FANCYBOX-->
-    <link href="assets/js/source/jquery.fancybox.css" rel="stylesheet" />
-    <!-- CUSTOM CSS -->
-    <link href="assets/css/style.css" rel="stylesheet" />
-    <!-- HTML5 Shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Waihura Maina</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="assets/css/base.css">
+   <link rel="stylesheet" href="assets/css/main.css">
+   <link rel="stylesheet" href="assets/css/vendor.css">
+
+   <!-- script
+   ================================================== -->
+	<script src="assets/js/modernizr.js"></script>
+	<script src="assets/js/pace.min.js"></script>
+
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
+
 </head>
-<body data-spy="scroll" data-target=".navbar-fixed-top">
 
-    <div class="navbar navbar-default navbar-fixed-top scroll-me">
-        <!-- pass scroll-me class above a tags to starts scrolling -->
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">
-                    <img src="assets/img/logo.png"  alt=""/>
-                </a>
+<body id="top">
+
+	<!-- header
+   ================================================== -->
+   <header>
+   	<div class="row">
+
+   		<div class="top-bar">
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+	   		<div class="logo">
+		         <a href="index.html">Waihura Maina</a>
+		      </div>
+
+		   	<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">A PROPOS</a></li>
+						<li><a class="smoothscroll"  href="#Work" title="">Work Experience</a></li>
+						<li><a class="smoothscroll"  href="#MORE" title="">MORE</a></li>
+
+					</ul>
+				</nav>
+   		</div> <!-- /top-bar -->
+
+   	</div> <!-- /row -->
+   </header> <!-- /header -->
+
+	<!-- intro section
+   ================================================== -->
+   <section id="intro">
+
+   	<div class="intro-overlay"></div>
+
+   	<div class="intro-content">
+   		<div class="row">
+
+   			<div class="col-twelve">
+
+	   			<h5>Hello.</h5>
+	   			<h1>I'm Waihura Maina.</h1>
+
+	   			<p class="intro-position">
+	   				<span>Front-end Developer</span>
+	   				<span>Back-end Developer</span>
+	   			</p>
+
+	   			<a class="button stroke smoothscroll" href="#about" title="">Find out more</a>
+
+	   		</div>
+
+   		</div>
+   	</div> <!-- /intro-content -->
+
+
+
+   </section> <!-- /intro -->
+
+
+   <!-- about section
+   ================================================== -->
+   <section id="about">
+
+   	<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>A PROPOS</h5>
+
+
+   			<div class="intro-info">
+
+   				<img src="images/MOHAMAD.png" alt="Profile Picture">
+
+   				<p class="lead">Actuellement apprenant à
+Simplon.co en développement Web
+PHP, je recherche un emploi, à partir
+du mois d’octobre 2016, qui me
+permettrait dans un premier temps
+d’affiner mes compétences
+techniques et mes qualités
+professionnelles.
+J’habite actuellement dans la
+banlieue parisienne, mais je suis
+mobile. </p>
+   			</div>
+
+   		</div>
+   	</div> <!-- /section-intro -->
+
+   	<div class="row about-content">
+
+   		<div class="col-six tab-full">
+
+   			<h3>PRATIQUE </h3>
+
+
+   			<ul class="info-list">
+   				<li>
+   					<strong>Nom et Prénom:</strong>
+   					<span>ABOU ALNASER Mohamad</span>
+   				</li>
+   				<li>
+   					<strong>Date de naissance:</strong>
+   					<span>Né le : 15 / 09 / 1982</span>
+   				</li>
+                <li>
+   					<strong>Email:</strong>
+   					<span>m.aboualnasser@gmail.com</span>
+   				</li>
+                <li>
+   					<strong>Adress:</strong>
+   					<span>2 rue Barbes, 92 210 Montrouge</span>
+   				</li>
+   				<li>
+   					<strong>Phone:</strong>
+   					<span>+ 33 6 27 76 01 44</span>
+   				</li>
+
+
+   			</ul> <!-- /info-list -->
+
+   		</div>
+
+   		<div class="col-six tab-full">
+
+   			<h3>COMPETENCES</h3>
+
+
+				<ul class="skill-bars">
+				   <li>
+				   	<div class="progress percent90"><span>90%</span></div>
+				   	<strong>HTML5</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent85"><span>85%</span></div>
+				   	<strong>CSS</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent70"><span>70%</span></div>
+				   	<strong>JQuery</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent85"><span>85%</span></div>
+				   	<strong>Bootstrap</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent75"><span>75%</span></div>
+				   	<strong>PHP</strong>
+				   </li>
+				   <li>
+                    <div class="progress percent75"><span>75%</span></div>
+				   	<strong>Java script</strong>
+				   </li>
+
+				</ul> <!-- /skill-bars -->
+
+   		</div>
+
+   	</div>
+
+   	<div class="row button-section">
+   		<div class="col-twelve">
+   			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Embaochez-moi</a>
+   			<a href="https://github.com/aboualnaser/aboualnaser.github.io/raw/master/images/CV%20_%20Mohamad%20Abou%20Alnaser_Dev%20Web%20PHP%20.pdf" target="_blank" title="Download CV" class="button button-primary">Téléchargez mon  CV</a>
+   		</div>
+   	</div>
+
+   </section> <!-- /process-->
+
+
+   <!-- resume Section
+   ================================================== -->
+	<section id="Work" class="grey-section">
+
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Expériences Professionelles</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>COMUS | France - Déploiement réseau – 2015</h3>
+	   					<p>Déploiement et mise en service des équipements radio et
+transmission du réseau Bouygues Télécom en Ile-deFrance.
+</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Al Furat Petroleum Company | Syrie - Ingénieur Télécom –
+2010 / 2013</h4>
+	   					<p>Déploiement et mise en service des équipements radio et
+transmission (Sagem)
+§ Configuration de routeurs Cisco .</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Intracom | Syrie – Gestionnaire d e s i t e d e
+télécommunications 2008 / 2010</h3>
+	   					<p>Déploiement du projet de réseau point-à-multipont</p>
+	   				</div>
+
+
+
+	   			</div> <!-- /timeline-block -->
+
+
+   			</div> <!-- /timeline-wrap -->
+
+   		</div> <!-- /col-twelve -->
+
+   	</div> <!-- /resume-timeline -->
+
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>FORMATION ET DIPLOMES</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Simplon.co – Montreuil </h3>
+	   					<p>2016 (7 mois)- Present</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+
+	   					<p>Formation intensive au développement Web (HTML, CSS,
+JS, PHP, Symfony)
+> Animation d’ateliers d’initiation à la programmation à
+destination des enfants et des adultes (Minecraft, Code
+n’Slash, Scratch)
+> Participation au Hackathons # RATP.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Microsoft Certified – Microsoft Certified IT Professional
+(MCITP) </h3>
+	   					<p>Syrie | 2013</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<p>Certification Cisco Microsoft : administrateur de bases de
+données .</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Université de Damas - Diplôme d’ingénieur</h3>
+	   					<p>Syrie | 2008</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+
+	   					<p>Ingénieur Génie Electrique, option: génie électrique et de
+communication.</p>
+	   				</div>
+	   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Cisco Courses – Cisco Certified Network Associate Level
+(CCNA) New Horizon</h3>
+	   					<p>Syrie | 2007</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+
+	   					<p>Certification Cisco CCNA Routing and Switching :
+technicien réseau .</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->
+
+   		</div> <!-- /col-twelve -->
+
+   	</div> <!-- /resume-timeline -->
+
+	</section> <!-- /features -->
+
+
+	<!-- Portfolio Section
+   ================================================== -->
+
+
+
+	<!-- CTA Section
+   ================================================== -->
+
+
+	<!-- services Section
+   ================================================== -->
+	<section id="MORE">
+
+		<div class="overlay"></div>
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>MORE</h5>
+
+
+
+
+   		</div>
+   	</div> <!-- /section-intro -->
+
+   	<div class="row services-content">
+
+   		<div id="owl-slider" class="owl-carousel services-list">
+
+   			<div class="service">
+
+			   	<span class="icon"><i class="icon-window"></i></span>
+
+	            <div class="service-content">
+
+	            	<h3>SYSTEMES ET BASE DE DONNEES</h3>
+
+		            <p class="desc"># Windows # Ubuntu
+# MySQL </br># Firebase.
+	        			</p>
+
+	            </div>
+
+			   </div> <!-- /service --><div class="service">
+
+					<span class="icon"><i class="icon-earth"></i></span>
+
+	            <div class="service-content">
+
+	            	<h3>LANGUES</h3>
+
+		            <ul class="skill-bars">
+				   <li>
+				   	<div class="progress percent100"><span>100%</span></div>
+				   	<strong>ARABE</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent85"><span>85%</span></div>
+				   	<strong>ANGLAIS</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent70"><span>70%</span></div>
+				   	<strong>FRANcAIS</strong>
+				   </li>
+				   </ul>
+
+	            </div>
+	            </div> <!-- /services-list -->
+
+	      	<div class="service">
+
+	      		<span class="icon"><i class="icon-chat"></i></span>
+
+	            <div class="service-content">
+
+	            	 <h3>Personnalité</h3>
+
+		            <p class="desc"> Personnalité : # sérieux # dynamique # organisé
+# travail en équipe .
+	         		</p>
+
+	         	</div>
+
+				</div> <!-- /service -->
+
+				<div class="service">
+
+					<span class="icon"><i class="icon-window"></i></span>
+
+	            <div class="service-content">
+
+	            	<h3>Centres d’intérêts</h3>
+
+		            <p class="desc">Centres d’intérêts : # cinéma d’action # poésie classique #
+randonnée.
+	         		</p>
+
+	            </div>
+
+			   </div> <!-- /service -->
+
+
+
+   	</div> <!-- /services-content -->
+
+	</section> <!-- /services -->
+
+
+	<!-- stats Section
+   ================================================== -->
+
+
+   <!-- contact
+   ================================================== -->
+	<section id="contact">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Contact</h5>
+   			<h1>N'hésitez pas à me contacter.</h1>
+
+
+
+   		</div>
+   	</div> <!-- /section-intro -->
+
+   	<div class="row contact-form">
+
+   		<div class="col-twelve">
+
+            <!-- form -->
+            <form id="contactform" action="//formspree.io/m.aboualnasser@gmail.com" method="POST">
+
+      <input type="text" name="name" placeholder="Votre Nome">
+      <input type="email" name="_replyto" placeholder="Votre Mail">
+      <textarea name="message" placeholder="Votre Message"></textarea>
+      <input type="submit" value="Envoyez">
+  </form>
+ 						    <!-- Form End -->
+
+            <!-- contact-warning -->
+            <div id="message-warning">
             </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#header">HOME</a></li>
-                    <li><a href="#services">SERVICES</a></li>
-                     <li><a href="#clients">CLIENTS</a></li>
-                    <li><a href="#works">WORK</a></li>
-                    <li><a href="#team">TEAM</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-                </ul>
-            </div>
+            <!-- contact-success -->
+      		<div id="message-success">
+               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+      		</div>
 
-        </div>
-    </div>
-    <!-- NAVBAR END  -->
-    <div id="header">
-        <div class="overlay">
-            <div class="container">
-                <div class="row scroll-me">
-                    <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 text-center ">
+         </div> <!-- /col-twelve -->
 
-                        <h1 data-scroll-reveal="enter from the bottom after 0.2s">Time Fadeout,  Design Doesn't
-                        </h1>
+   	</div> <!-- /contact-form -->
 
-                        <h4 data-scroll-reveal="enter from the bottom after 0.4s">Morbi bibendum risus non nunc feugiat, quis venenatis augue fringilla. 
-                          Morbi vestibulum elit eget leo congue elementum.
-                           Aliquam at turpis urna. Nam pulvinar tincidunt posuere. 
+   	<div class="row contact-info">
 
-                        </h4>
-                        <a data-scroll-reveal="enter from the bottom after 0.6s" href="#" class="btn btn-danger set-bk-clr">Explore Awesomeness</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+   		<div class="col-four tab-full">
 
-    </div>
-    <!--HEADER SECTION END  -->
-    <section id="services">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-6 col-md-offset-3 pad-bottom" data-scroll-reveal="enter from the bottom after 0.2s">
-                    <h2><strong>OUR SERVICES</strong></h2>
-                    Consectetur adipiscing elit felis dolor felis dolor vitae.Eelit felis dolor vitae
+   			<div class="icon">
+   				<i class="icon-pin"></i>
+   			</div>
 
-                </div>
-            </div>
-            <div class="row text-center pad-bottom" data-scroll-reveal="enter from the bottom after 0.4s">
-                <div class="col-md-3">
-                    <i class="ion-ios-cloud-outline"></i>
-                    <h4><strong>Service Name # 1 </strong></h4>
-                    Consectetur adipiscing elit felis dolor felis dolor vitae.Eelit felis dolor vitae felis dolor vitae
-                </div>
-                <div class="col-md-3">
-                    <i class="ion-card"></i>
-                    <h4><strong>Service Name # 2 </strong></h4>
-                    Consectetur adipiscing elit felis dolor felis dolor vitae.Eelit felis dolor vitae felis dolor vitae
-                </div>
-                <div class="col-md-3">
-                    <i class="ion-speedometer"></i>
-                    <h4><strong>Service Name # 3 </strong></h4>
-                    Consectetur adipiscing elit felis dolor felis dolor vitae.Eelit felis dolor vitae felis dolor vitae
-                </div>
-                <div class="col-md-3">
-                    <i class="ion-ios-settings"></i>
-                    <h4><strong>Service Name # 4 </strong></h4>
-                    Consectetur adipiscing elit felis dolor felis dolor vitae.Eelit felis dolor vitae felis dolor vitae
-                </div>
-            </div>
-            <div class="row text-center" data-scroll-reveal="enter from the bottom after 0.6s">
-                <div class="col-md-3">
-                    <i class="ion-ios-chatboxes-outline"></i>
-                    <h4><strong>Service Name # 5 </strong></h4>
-                    Consectetur adipiscing elit felis dolor felis dolor vitae.Eelit felis dolor vitae felis dolor vitae
-                </div>
-                <div class="col-md-3">
-                    <i class="ion-ios-pulse-strong"></i>
-                    <h4><strong>Service Name # 6 </strong></h4>
-                    Consectetur adipiscing elit felis dolor felis dolor vitae.Eelit felis dolor vitae felis dolor vitae
-                </div>
-                <div class="col-md-3">
-                    <i class="ion-ios-browsers-outline"></i>
-                    <h4><strong>Service Name # 7 </strong></h4>
-                    Consectetur adipiscing elit felis dolor felis dolor vitae.Eelit felis dolor vitae felis dolor vitae
-                </div>
-                <div class="col-md-3">
-                    <i class="ion-ios-people-outline"></i>
-                    <h4><strong>Service Name # 8 </strong></h4>
-                    Consectetur adipiscing elit felis dolor felis dolor vitae.Eelit felis dolor vitae felis dolor vitae
-                </div>
-            </div>
-        </div>
+   			<h5>Pour me contacter</h5>
+
+   			<p>
+           2 rue barbes<br>
+            92120<br>
+            Montrouge
+            </p>
+
+   		</div>
+
+   		<div class="col-four tab-full collapse">
+
+   			<div class="icon">
+   				<i class="icon-mail"></i>
+   			</div>
+
+   			<h5>Envoyez-moi un e-mail</h5>
+
+   			<p>m.aboualnasser@gmail.com
 
 
-    </section>
-    <!-- SERVICES SECTION END  -->
-    <div id="clients">
-        <div class="overlay">
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col-md-12" data-scroll-reveal="enter from the bottom after 0.2s">
-                        <div class="carousel slide clients-carousel" id="clients-slider">
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <div class="row">
-                                        <div class="col-md-3">
-                                            <a class="thumbnail" href="#">
-                                                <img src="assets/img/themeforest.png" alt="" />
-                                            </a>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <a class="thumbnail" href="#">
-                                                <img src="assets/img/facebook.png" alt="" />
-                                            </a>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <a class="thumbnail" href="#">
-                                                <img src="assets/img/google.png" alt="" />
-                                            </a>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <a class="thumbnail" href="#">
-                                                <img src="assets/img/graphic.png" alt="" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="row">
-                                        <div class="col-md-3">
-                                            <a class="thumbnail" href="#">
-                                                <img src="assets/img/themeforest.png" alt="" />
-                                            </a>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <a class="thumbnail" href="#">
-                                                <img src="assets/img/facebook.png" alt="" />
-                                            </a>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <a class="thumbnail" href="#">
-                                                <img src="assets/img/google.png" alt="" />
-                                            </a>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <a class="thumbnail" href="#">
-                                                <img src="assets/img/graphic.png" alt="" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="row">
-                                        <div class="col-md-3">
-                                            <a class="thumbnail" href="#">
-                                                <img src="assets/img/themeforest.png" alt="" />
-                                            </a>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <a class="thumbnail" href="#">
-                                                <img src="assets/img/facebook.png" alt="" />
-                                            </a>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <a class="thumbnail" href="#">
-                                                <img src="assets/img/google.png" alt="" />
-                                            </a>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <a class="thumbnail" href="#">
-                                                <img src="assets/img/graphic.png" alt="" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <a data-slide="prev" href="#clients-slider" class="left carousel-control">‹</a>
-                            <a data-slide="next" href="#clients-slider" class="right carousel-control">›</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- CLIENTS SECTION END  -->
-    <section id="works">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-6 col-md-offset-3 pad-bottom" data-scroll-reveal="enter from the bottom after 0.2s">
-                    <h2><strong>WORK PORFOLIO</strong></h2>
-                    Consectetur adipiscing elit felis dolor felis dolor vitae.Eelit felis dolor vitae
+			   </p>
 
-                </div>
-            </div>
+   		</div>
 
-            <div class="row text-center">
-                <div class="col-md-12 pad-bottom" data-scroll-reveal="enter from the bottom after 0.4s">
-                    <div class="caegories">
-                        <a href="#" data-filter="*" class="active btn btn-info btn-sm">All</a>
-                        <a href="#" data-filter=".html" class="btn btn-info btn-sm">HTML</a>
-                        <a href="#" data-filter=".css" class="btn btn-info btn-sm">CSS</a>
-                        <a href="#" data-filter=".code" class="btn btn-info btn-sm">CODE</a>
-                        <a href="#" data-filter=".script" class="btn btn-info btn-sm">SCRIPT</a>
-                    </div>
+   		<div class="col-four tab-full">
 
-                </div>
-            </div>
+   			<div class="icon">
+   				<i class="icon-phone"></i>
+   			</div>
+
+   			<h5>Call Me At</h5>
+
+   			<p>Phone:
+			   	+ 33 6 27 76 01 44<br>
+
+			   </p>
+
+   		</div>
+
+   	</div> <!-- /contact-info -->
+
+	</section> <!-- /contact -->
 
 
-            <div class="row text-center" id="portfolio-div" >
+   <!-- footer
+   ================================================== -->
 
-                <div class="col-md-4 col-sm-4 html">
-                    <div class="work-wrapper">
+   <footer>
+     	<div class="row">
+        <div class="col-six tab-full pull-right social">
 
-                        <a class="fancybox-media" title="Image Title Goes Here" href="assets/img/portfolio/1.jpg">
+             			<ul class="footer-social">
+        			      
+        			      <li><a target="_blank"href="https://twitter.com/MOHAMADABOUALNA"><i class="fa fa-twitter"></i></a></li>
+        			      <li><a target="_blank"href="https://github.com/aboualnaser"><i class="fa fa-github" aria-hidden="true"></i>
+</a></li>
+        			   </ul>
 
-                            <img src="assets/img/portfolio/1.jpg" class="img-responsive " alt="" />
-                        </a>
+        	      </div>
 
+	      	<div id="go-top">
+		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+		      </div>
 
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-4 css">
-                    <div class="work-wrapper">
-                        <a class="fancybox-media" title="Image Title Goes Here" href="assets/img/portfolio/2.jpg">
+      	</div> <!-- /row -->
+   </footer>
 
-                            <img src="assets/img/portfolio/2.jpg" class="img-responsive " alt="" />
-                        </a>
+   <div id="preloader">
+    	<div id="loader"></div>
+   </div>
 
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-4 code">
-                    <div class="work-wrapper">
-                        <a class="fancybox-media" title="Image Title Goes Here" href="assets/img/portfolio/3.jpg">
-
-                            <img src="assets/img/portfolio/3.jpg" class="img-responsive " alt="" />
-                        </a>
-
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-4 script">
-                    <div class="work-wrapper">
-                        <a class="fancybox-media" title="Image Title Goes Here" href="assets/img/portfolio/4.jpg">
-
-                            <img src="assets/img/portfolio/4.jpg" class="img-responsive " alt="" />
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-4 html script">
-                    <div class="work-wrapper">
-                        <a class="fancybox-media" title="Image Title Goes Here" href="assets/img/portfolio/5.jpg">
-
-                            <img src="assets/img/portfolio/5.jpg" class="img-responsive " alt="" />
-                        </a>
-
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-4 css code">
-                    <div class="work-wrapper">
-                        <a class="fancybox-media" title="Image Title Goes Here" href="assets/img/portfolio/6.jpg">
-
-                            <img src="assets/img/portfolio/6.jpg" class="img-responsive" alt="" />
-                        </a>
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- WORK SECTION END  -->
-    <div id="testimonial" data-scroll-reveal="enter from the bottom after 0.2s">
-        <div class="overlay">
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4">
-                        <i class="ion-ios-drag clr-set f-big"></i>
-                        <br />
-                        <p>
-                            Consectetur adipiscing elit felis dolor felis dolor vitae.
-                     Consectetur adipiscing elit felis dolor felis dolor vitae.Eelit felis dolor vitae felis dolor vitae
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- TESTIMONIAL SECTION END  -->
-    <section id="team">
-        <div class="container">
-
-            <div class="row text-center" data-scroll-reveal="enter from the bottom after 0.2s">
-                <div class="col-md-6 col-md-offset-3 pad-bottom">
-                    <h2><strong>AWESOME TEAM</strong></h2>
-                    Consectetur adipiscing elit felis dolor felis dolor vitae.Eelit felis dolor vitae
-
-                </div>
-            </div>
-            <div class="row pad-bottom" data-scroll-reveal="enter from the bottom after 0.4s">
-
-                <div class="col-md-6 col-sm-6">
-                    <div class="media">
-                        <a class="media-left" href="#">
-                            <img src="assets/img/1.jpg" alt="" class="img-circle" />
-                        </a>
-                        <div class="media-body">
-                            <h3 class="media-heading">Technical Director</h3>
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-           3 wolf moon officia aute, non cupidatat skateboard dolor brunch. 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                    <div class="media">
-                        <a class="media-left" href="#">
-                            <img src="assets/img/2.jpg" alt="" class="img-circle" />
-                        </a>
-                        <div class="media-body">
-                            <h3 class="media-heading">Marketing Director</h3>
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-           3 wolf moon officia aute, non cupidatat skateboard dolor brunch. 
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row" data-scroll-reveal="enter from the bottom after 0.6s">
-
-                <div class="col-md-6 col-sm-6">
-                    <div class="media">
-                        <a class="media-left" href="#">
-                            <img src="assets/img/3.jpg" alt="" class="img-circle" />
-                        </a>
-                        <div class="media-body">
-                            <h3 class="media-heading">Clients Manager</h3>
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-           3 wolf moon officia aute, non cupidatat skateboard dolor brunch. 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                    <div class="media">
-                        <a class="media-left" href="#">
-                            <img src="assets/img/4.jpg" alt="" class="img-circle" />
-                        </a>
-                        <div class="media-body">
-                            <h3 class="media-heading">Support Director</h3>
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-           3 wolf moon officia aute, non cupidatat skateboard dolor brunch. 
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <!-- TEAM SECTION END -->
-    <section id="contact">
-        <div class="overlay">
-            <div class="container">
-                <div class="row text-center" data-scroll-reveal="enter from the bottom after 0.2s">
-                    <div class="col-md-6 col-md-offset-3 pad-bottom">
-                        <h2><strong>STAY CONNECTED </strong></h2>
-                        Consectetur adipiscing elit felis dolor felis dolor vitae.Eelit felis dolor vitae
-
-                    </div>
-                </div>
-
-                <div class="row text-center" data-scroll-reveal="enter from the bottom after 0.4s">
-
-                    <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
-                        <h3><strong>Address : </strong></h3>
-                        <br />
-                        <h4>102, Melborne City International,</h4>
-                        <h4>United States </h4>
-                        <h4><strong>Email : </strong>info@yourdomain.com</h4>
-                    </div>
-
-                </div>
-
-
-
-            </div>
-        </div>
-    </section>
-    <!-- CONTACT SECTION END -->
-    <footer>
-        <span>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved.</span>
-    </footer>
-    <!--FOOTER SECTION END  -->
-    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
-    <!-- CORE JQUERY  SCRIPTS -->
-    <script src="assets/js/jquery-1.11.1.js"></script>
-    <!-- BOOTSTRAP SCRIPTS  -->
-    <script src="assets/js/bootstrap.js"></script>
-    <!-- SCROLLING SCRIPTS PLUGIN  -->
-    <script src="assets/js/jquery.easing.min.js"></script>
-    <!--  FANCYBOX PLUGIN -->
-    <script src="assets/js/source/jquery.fancybox.js"></script>
-    <!-- ISOTOPE SCRIPTS -->
-    <script src="assets/js/jquery.isotope.js"></script>
-     <!-- SCROLL ANIMATIONS  -->
-    <script src="assets/js/scrollReveal.js"></script>
-    <!-- CUSTOM SCRIPTS   -->
-    <script src="assets/js/custom.js"></script>
+   <!-- Java Script
+   ================================================== -->
+   <script src="assets/js/jquery-2.1.3.min.js"></script>
+   <script src="assets/js/plugins.js"></script>
+   <script src="assets/js/main.js"></script>
 
 </body>
+
 </html>
